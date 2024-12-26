@@ -131,50 +131,6 @@
 
     gtag('config', 'G-6HJQ1P0X9R');
 </script>
-<!-- Script per mostrare e nascondere la modale e per il conto alla rovescia -->
-<!-- Script per mostrare e nascondere la modale e per il conto alla rovescia -->
-<!-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const modal = document.getElementById("modal-offer");
-        modal.style.display = "flex";
-        modal.style.opacity = "1";
-
-        // Pulsante per chiudere la modale
-        document.getElementById("close-modal").onclick = function() {
-            modal.style.opacity = "0";
-            setTimeout(() => { modal.style.display = "none"; }, 300);
-        };
-
-        // Countdown
-        function startCountdown() {
-            const endDate = new Date("2024-11-09T23:59:59").getTime();
-
-            const interval = setInterval(function() {
-                const now = new Date().getTime();
-                const distance = endDate - now;
-
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                document.getElementById("countdown").innerHTML = 
-                    (days < 10 ? "0" + days : days) + " giorni " +
-                    (hours < 10 ? "0" + hours : hours) + " ore " +
-                    (minutes < 10 ? "0" + minutes : minutes) + " minuti " +
-                    (seconds < 10 ? "0" + seconds : seconds) + " secondi";
-
-                if (distance < 0) {
-                    clearInterval(interval);
-                    document.getElementById("countdown").innerHTML = "Offerta Scaduta";
-                    document.getElementById("contact-button").style.display = "none";
-                }
-            }, 1000);
-        }
-
-        startCountdown();
-    });
-</script> -->
 
 <body id="top">
 
@@ -186,20 +142,6 @@
         <div></div>
     </div>
 </div>
-
-<!-- Modal Offerta -->
-<!-- <div id="modal-offer">
-    <div id="modal-content">
-        <button id="close-modal">&times;</button>
-        <h2>OFFERTA SPECIALE</h2>
-        <p>Sito Web Vetrina per la tua Attività a soli</p>
-        <h2 style="margin: 0;">299€</h2>
-        <p>Un sito professionale e personalizzato per presentare la tua azienda online.</p>
-        <p>L'offerta scade tra:</p>
-        <div id="countdown">00:00:00</div>
-        <a href="https://wa.me/3490596202?text=Ciao%20Sebastian%2C%20vorrei%20chiedere%20maggiori%20informazioni%20in%20merito%20all'offerta%20del%20sito%20web%20a%20299" target="_blank" id="contact-button">Contattami ora su WhatsApp</a>
-    </div>
-</div> -->
 
 
 <!-- Page Wrap -->
