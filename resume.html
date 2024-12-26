@@ -22,11 +22,12 @@
             margin: 2rem auto;
             max-width: 500px;
             text-align: center;
+            padding: 0 1rem;
         }
 
         .pdf-viewer {
-            width: 100%;
-            height: 700px;
+            width: 95%;
+            height: 75vh; /* Dynamically adjust height based on the viewport */
             border: 1px solid #ddd;
             margin-top: 1rem;
         }
@@ -45,6 +46,18 @@
 
         .download-btn:hover {
             background-color: #0056b3;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .pdf-viewer {
+                height: 90vh;
+            }
+
+            .download-btn {
+                font-size: 1rem;
+                padding: 0.6rem 1.2rem;
+            }
         }
     </style>
 </head>
@@ -70,7 +83,6 @@
         </section>
 
         <section id="resume-container">
-            <!-- <h2 class="text-display-title">Il Mio Curriculum</h2> -->
             <p class="lead">Scopri il mio percorso professionale e formativo.</p>
 
             <!-- PDF Viewer -->
