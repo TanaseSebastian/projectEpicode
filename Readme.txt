@@ -55,7 +55,7 @@ This project is my personal portfolio website, developed as part of my bachelor'
 
 ## 🌐 Live Website
 
-The portfolio is already live and accessible at: [sebastiantanase.it](https://sebastiantanase.it).
+The portfolio is already live and accessible at: https://sebastiantanase.it
 
 ---
 
@@ -83,9 +83,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out for collaboration or inquiries:
 
-- **Email**: [tanase.sebastian@example.com](mailto:sebastiantanase18@gmail.com)
-- **GitHub**: [https://github.com/TanaseSebastian](https://github.com/TanaseSebastian)
-- **LinkedIn**: [https://linkedin.com/in/tanase-sebastian](https://www.linkedin.com/in/tanasesebastian/)
+- **Email**: sebastiantanase18@gmail.com
+- **GitHub**: https://github.com/TanaseSebastian
+- **LinkedIn**: https://www.linkedin.com/in/tanasesebastian/
 
 ---
 
