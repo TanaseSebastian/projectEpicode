@@ -36,6 +36,7 @@ This project is my personal portfolio website, developed as part of my bachelor'
 ├── principiwebdesign.html   # Principles of web design article
 ├── services.html            # Services offered
 ├── index.html               # Main homepage
+├── resume.html              # Resume page
 ├── site.webmanifest         # Web app manifest
 ├── CNAME                    # Custom domain configuration
 ├── components/              # Reusable components
@@ -55,7 +56,7 @@ This project is my personal portfolio website, developed as part of my bachelor'
 
 ## 🌐 Live Website
 
-The portfolio is already live and accessible at: https://sebastiantanase.it
+The portfolio is already live and accessible at: https://tanasesebastian.github.io/projectEpicode/resume.html
 
 ---
 
