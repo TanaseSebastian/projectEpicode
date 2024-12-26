@@ -42,7 +42,7 @@ This project is my personal portfolio website, developed as part of my bachelor'
 
 ## 🌐 Live Website
 
-The portfolio is already live and accessible at: https://tanasesebastian.github.io/projectEpicode/resume.html
+The portfolio is already live and accessible at: https://tanasesebastian.github.io/projectEpicode/index.html
 
 ---
 
