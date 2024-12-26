@@ -1,98 +1,11 @@
 @charset "UTF-8";
-/* =================================================================== 
- * Monica Main Stylesheet
- * Template Ver. 1.0.0
- * 12-13-2022
- * ------------------------------------------------------------------
- *
- * TOC:
- * # SETTINGS
- *		## fonts
- *    	## colors
- *	  	## spacing and typescale
- *		## grid variables
- * # CSS RESET
- * # GRID
- *		## extra large devices
- *		## large devices
- *		## medium devices 
- *		## tablet devices
- *		## mobile devices
- *		## small mobile devices
- *		## additional column stackpoints 
- * # BASE SETUP
- * # UTILITY CLASSES
- * # TYPOGRAPHY 
- *		## additional typography & helper classes
- *		## lists
- *		## media 
- *		## spacing
- * # PRELOADER
- *		## page loaded
- * # FORM 
- *		## style placeholder text
- *		## change autocomplete styles in Chrome
- * # BUTTONS
- * # TABLE
- * # COMPONENTS
- *		## pagination 
- *		## alert box 
- *		## skillbars
- *		## stats tabs
- * # PROJECT-WIDE SHARED STYLES
- *		## list items
- *		## social list
- *		## blog card
- *		## testimonials
- *		## swiper overrides
- * # GRID-BASED LAYOUTS
- *		## grid block
- *		## list grid
- * # PAGE WRAP
- * # SITE HEADER
- *		## logo
- *		## main navigation
- *		## mobile menu toggle
- * # PAGEHEADER & PAGECONTENT
- * # INTRO
- *		## intro content
- *		## intro scroll down
- *		## intro transitions
- * # ABOUT
- * # EXPERTISE
- * # CLIENTS
- *		## clients list
- * # CTA
- * # JOURNAL
- * # FOOTER
- *		## newsletter
- *		## copyright
- *		## go top
- * # BLOG STYLES 
- * # PAGE STYLES 
- *		## services page
- *		## contact page
- *
- * ------------------------------------------------------------------ */
-
-
-/* ===================================================================
- * # SETTINGS
- *
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts 
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
 
 :root {
 	--font-1: "Roboto Flex", sans-serif;
 	--font-2: "DM Serif Display", Serif;
 
-  /* monospace
-   */
+  /* monospace*/
 	--font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
@@ -2878,30 +2791,6 @@ td:last-child {
 .social-list svg circle {
 	fill      : rgba(255, 255, 255, 0.5);
 	transition: all 0.5s;
-}
-
-/* ------------------------------------------------------------------- 
- * ## blog card
- * ------------------------------------------------------------------- */
-.blog-card__header {
-	margin-bottom: var(--vspace-0_75);
-}
-
-.blog-card__cat-links {
-	font-size: var(--text-sm);
-}
-
-.blog-card__cat-links a {
-	color: var(--color-1);
-}
-
-.blog-card__title {
-	margin     : 0;
-	line-height: 1.1574;
-}
-
-.blog-card__title a {
-	color: var(--color-text-dark);
 }
 
 /* --------------------------------------------------------------------

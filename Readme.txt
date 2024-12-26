@@ -27,13 +27,8 @@ This project is my personal portfolio website, developed as part of my bachelor'
 
 ```
 ├── about.html               # About Me page
-├── biasperazione.html       # Specific article or section
-├── blog.html                # Blog page
 ├── contact.html             # Contact page
-├── fattoriseo.html          # SEO factors article
-├── marketingdati.html       # Marketing and data page
 ├── portfolio.html           # Portfolio showcase page
-├── principiwebdesign.html   # Principles of web design article
 ├── services.html            # Services offered
 ├── index.html               # Main homepage
 ├── resume.html              # Resume page

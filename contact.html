@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="it" class="no-js">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6HJQ1P0X9R"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6HJQ1P0X9R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-6HJQ1P0X9R');
-</script>
-    <!--- basic page needs
-    ================================================== -->
+        gtag('config', 'G-6HJQ1P0X9R');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contatti - Sebastian Tanase</title>
@@ -19,42 +16,92 @@
     <meta name="keywords" content="consulenza, contatti, software engineer, digital strategist, prenota consulenza, Sebastian Tanase">
     <meta name="author" content="Sebastian Tanase">
 
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="Contatti - Sebastian Tanase">
-    <meta property="og:description" content="Prenota una consulenza con Sebastian Tanase, Software Engineer e Digital Strategist, per portare la tua attività al livello successivo.">
-    <meta property="og:image" content="images/og-image.jpg">
-    <meta property="og:url" content="https://www.sebastiantanase.it/contact.html">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Contatti - Sebastian Tanase">
-    <meta name="twitter:description" content="Prenota una consulenza con Sebastian Tanase, Software Engineer e Digital Strategist, per portare la tua attività al livello successivo.">
-    <meta name="twitter:image" content="images/twitter-card-image.jpg">
-
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
-    <!-- CSS
-    ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
-
-    <!-- favicons
-    ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .contact-section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-form, .calendly-widget {
+            flex: 1 1 48%;
+            margin-bottom: 2rem;
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2, .calendly-widget h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1.5rem;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            height: 120px;
+        }
+        .contact-form button {
+            background: #007BFF;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+        .contact-form .confirmation-message {
+            display: none;
+            color: green;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .calendly-widget iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        @media (max-width: 768px) {
+            .contact-section {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            .contact-form, .calendly-widget {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 </head>
-
 <body id="top">
-
-<!-- preloader
-================================================== -->
 <div id="preloader">
     <div id="loader" class="dots-fade">
         <div></div>
@@ -62,18 +109,10 @@
         <div></div>
     </div>
 </div>
-
-<!-- page wrap
-================================================== -->
 <div id="page" class="s-pagewrap">
-
-    <!--aggiungo header-->
     <script src="components/header.js"></script>
 
-    <!-- # site main content
-    ================================================== -->
     <section id="content" class="s-content">
-
         <section class="s-pageheader pageheader">
             <div class="row">
                 <div class="column xl-12">
@@ -83,34 +122,48 @@
                     </h1>
                 </div>
             </div>
-        </section> <!-- pageheader -->
+        </section>
 
-        <section class="s-pagecontent pagecontent">
+        <section class="contact-section">
+            <!-- Modulo di contatto -->
+            <div class="contact-form">
+                <h2>Contattami</h2>
+                <form id="contact-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
 
-            <div class="row pageintro">
-                <div class="column xl-12 lg-12 center">
-                    <h2 class="text-display-title center">Portiamo oggi la tua attività al livello successivo 🫵.</h2>
-                </div>
-            </div> <!-- pageintro -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="La tua email" required>
 
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/sebastiantanase18/30min?hide_gdpr_banner=1" style="min-width:320px;height:1250px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
+                    <label for="subject">Oggetto:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Oggetto del messaggio" required>
 
-        </section> <!-- pagecontent -->
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" placeholder="Scrivi il tuo messaggio" required></textarea>
 
-    </section> <!-- s-content-->
+                    <button class="btn btn--primary" type="submit">Invia</button>
+                </form>
+                <p id="confirmation-message" class="confirmation-message">Il tuo messaggio è stato inviato con successo!</p>
+            </div>
 
-    <!--aggiungo footer-->
+            <!-- Calendly inline widget -->
+            <div class="calendly-widget">
+                <h2>Prenota una Consulenza</h2>
+                <iframe src="https://calendly.com/sebastiantanase18/30min?hide_gdpr_banner=1"></iframe>
+            </div>
+        </section>
+    </section>
+
     <script src="components/footer.js"></script>
-
-</div> <!-- end page-wrap -->
-
-<!-- Java Script
-================================================== -->
+</div>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('confirmation-message').style.display = 'block';
+        this.reset();
+    });
+</script>
 </body>
 </html>
