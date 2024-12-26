@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume - Sebastian Tanase</title>
+    <meta name="description" content="Il curriculum professionale di Sebastian Tanase. Scopri la mia esperienza, formazione e competenze.">
+    <meta name="keywords" content="resume, curriculum, Sebastian Tanase, esperienza, competenze">
+    <meta name="author" content="Sebastian Tanase">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <style>
+        #resume-container {
+            margin: 2rem auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ddd;
+            margin-top: 1rem;
+        }
+
+        .download-btn {
+            margin-top: 1.5rem;
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body id="top">
+
+<!-- Page Wrap -->
+<div id="page" class="s-pagewrap">
+
+    <!-- Header -->
+    <script src="components/header.js"></script>
+
+    <!-- Main Content -->
+    <section id="content" class="s-content">
+        <section class="s-pageheader pageheader">
+            <div class="row">
+                <div class="column xl-12">
+                    <h1 class="page-title">
+                        <span class="page-title__small-type text-pretitle">Curriculum Vitae</span>
+                        Il Mio Resume
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume-container">
+            <!-- <h2 class="text-display-title">Il Mio Curriculum</h2> -->
+            <p class="lead">Scopri il mio percorso professionale e formativo.</p>
+
+            <!-- PDF Viewer -->
+            <iframe src="./resume.pdf" class="pdf-viewer" title="Sebastian Tanase Resume"></iframe>
+
+            <!-- Download Button -->
+            <a href="./resume.pdf" class="download-btn" download="Sebastian_Tanase_Resume.pdf">Scarica il PDF</a>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <script src="components/footer.js"></script>
+</div>
+
+<!-- JavaScript -->
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

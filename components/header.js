@@ -22,7 +22,7 @@ var headerHTML = `
                         <li><a href="about.html">Chi sono</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="services.html">Servizi</a></li>
-      <!--                  <li><a href="blog.html">Blog</a></li>-->
+                        <li><a href="resume.html">Resume</a></li>
                         <li><a href="contact.html">Contatti</a></li>
                     </ul> <!-- s-header__menu-links -->
 
