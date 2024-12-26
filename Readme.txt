@@ -33,17 +33,8 @@ This project is my personal portfolio website, developed as part of my bachelor'
 ├── index.html               # Main homepage
 ├── resume.html              # Resume page
 ├── site.webmanifest         # Web app manifest
-├── CNAME                    # Custom domain configuration
 ├── components/              # Reusable components
-├── css/                     # Custom stylesheets
-├── js/                      # Custom JavaScript files
-├── images/                  # Image assets
-├── favicon.ico              # Favicon
-├── favicon-16x16.png        # Favicon (16x16)
-├── favicon-32x32.png        # Favicon (32x32)
-├── android-chrome-192x192.png # Android Chrome icon
-├── android-chrome-512x512.png # Android Chrome icon
-├── apple-touch-icon.png     # Apple touch icon
+├── ASSETS/                  # ASSETS
 └── README.md                # Project documentation
 ```
 

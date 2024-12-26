@@ -8,7 +8,7 @@ var headerHTML = `
                 <div class="s-header__block">
                     <div class="s-header__logo">
                         <a class="logo" href="index.html">
-                            <img src="images/logo.png" alt="Homepage">
+                            <img src="ASSETS/images/logo.png" alt="Homepage">
                         </a>
                     </div>
 
